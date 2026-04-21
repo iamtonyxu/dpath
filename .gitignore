@@ -1,0 +1,149 @@
+###############################################################################
+# RTL Design
+###############################################################################
+
+# ----- Common EDA artifacts (multiple tools) --------------------------------
+*.log
+*.rpt
+*.bak
+
+# ----- Xilinx Vivado --------------------------------------------------------
+*.jou
+*.str
+.Xil/
+vivado_*.backup.jou
+vivado_*.backup.log
+webtalk_*.backup.jou
+webtalk_*.backup.log
+*.xpr
+*.xsa
+*.bit
+*.ltx
+*.mmi
+*.mcs
+*.prm
+*.dcp
+*.vds
+*.pb
+*.veo
+*.vho
+*.xdc.bak
+*.runs/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.srcs/
+*.gen/
+
+# ----- Intel / Altera Quartus -----------------------------------------------
+db/
+incremental_db/
+output_files/
+simulation/
+*.qws
+*.sof
+*.pof
+*.rbf
+*.svf
+*.jic
+*.smsg
+*.pin
+*.summary
+*.done
+*.flow.rpt
+*.map.rpt
+*.fit.rpt
+*.asm.rpt
+*.sta.rpt
+*.tan.rpt
+*.cdf
+*.dpf
+*.qpf
+*.qsf.bak
+
+# ----- ModelSim / Questa ----------------------------------------------------
+work/
+transcript
+vsim.wlf
+*.wlf
+modelsim.ini
+questa.ini
+*.vcd
+*.fsdb
+*.shm/
+*.trn
+*.dsn
+
+# ----- Icarus Verilog --------------------------------------------------------
+*.vvp
+a.out
+
+# ----- Synopsys VCS ----------------------------------------------------------
+simv
+simv.daidir/
+csrc/
+ucli.key
+vc_hdrs.h
+DVEfiles/
+*.vpd
+
+# ----- Cadence Xcelium / NC-Sim ----------------------------------------------
+INCA_libs/
+xcelium.d/
+*.history
+*.err
+
+# ----- Synopsys Design Compiler / PrimeTime ---------------------------------
+*.mr
+*.pvl
+default.svf
+*.syn
+
+# ----- General EDA / RTL artifacts ------------------------------------------
+*.evcd
+*.saif
+*.sdf
+*.spef
+*.lib
+*.lef
+*.def
+*.gds
+*.oas
+*.wav
+
+###############################################################################
+# MATLAB / Simulink
+###############################################################################
+
+# Autosave files
+*.asv
+*.m~
+
+# Compiled MEX files
+*.mex
+*.mexa64
+*.mexmaci64
+*.mexw32
+*.mexw64
+
+# Simulink autosave & cache
+*.slx.autosave
+*.mdl.autosave
+*.slxc
+slprj/
+
+# Simulink model advisor & profiler
+*.html
+
+# Code generation (Embedded Coder, Simulink Coder, MATLAB Coder)
+codegen/
+
+# MAT-file data (uncomment if binary data files should not be tracked)
+# *.mat
+
+# Figure files
+# *.fig
+
+# Temporary MATLAB files
+octave-workspace
