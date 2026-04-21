@@ -1,0 +1,71 @@
+# --------------------------------------------------
+# ModelSim / Questa
+# --------------------------------------------------
+work/
+modelsim/
+transcript
+vsim.wlf
+*.wlf
+*.vcd
+*.fst
+*.log
+
+# --------------------------------------------------
+# File-driven TB generated vectors/results
+# Keep source testbenches, ignore generated text I/O
+# --------------------------------------------------
+tb/*_cfg.txt
+tb/*_coeff.txt
+tb/*_input.txt
+tb/*_output.txt
+tb/*_ref_output.txt
+
+# --------------------------------------------------
+# Vivado / synthesis / implementation
+# --------------------------------------------------
+.cache/
+.hw/
+.ip_user_files/
+.runs/
+.sim/
+.Xil/
+*.jou
+*.str
+*.pb
+*.dcp
+*.bit
+*.bin
+*.ltx
+*.xsa
+*.xpr
+*.xml
+*.rpt
+*.rpx
+
+# If txpath_project/ is a Vivado-generated project directory,
+# ignore it entirely unless you explicitly want project files tracked.
+txpath_project/
+
+# --------------------------------------------------
+# MATLAB temporary files
+# --------------------------------------------------
+*.asv
+slprj/
+sfprj/
+
+# --------------------------------------------------
+# Office temporary/lock files
+# --------------------------------------------------
+~$*.docx
+~$*.pptx
+~$*.xlsx
+
+# --------------------------------------------------
+# tmp/
+# Default: ignore generated temp content
+# --------------------------------------------------
+tmp/*
+
+# Keep the synthesis helper script/report you asked to preserve
+!tmp/check_tx_synth.tcl
+!tmp/check_tx_synth_util.rpt
